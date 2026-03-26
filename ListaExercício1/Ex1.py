@@ -68,5 +68,6 @@ for i in range(10):
         i+1: [gerarNumerosAleatorios(a, c, M, x0, 10, 20)[i], gerarNumerosAleatorios(a, c, M, x0, 5, 15)[i], gerarNumerosAleatorios(a, c, M, x0, 8, 18)[i]],
     })
 
+for indice,lista in dict_jogador.items():
 
-print(dict_jogador)
+    print(indice, lista)
