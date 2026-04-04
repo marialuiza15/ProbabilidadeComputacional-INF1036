@@ -52,7 +52,7 @@ def lancaDados():
 
     dict_dados["1"]= [dict_dados["1"]= dict_dados.setdefault("1", 0)+1  if prob>0 and prob<=0.125  else pass  for prob in chance]
     print(dict_dados["1"])
-    
+
     for prob in chance:
         if prob>0 and prob<=0.125:
             dict_dados["1"]= dict_dados.setdefault("1", 0)+1
