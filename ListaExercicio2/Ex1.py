@@ -1,5 +1,5 @@
 import random
-#random.seed(123)
+random.seed(123)
 
 def calcDistribuicaoDados():
     probFloat = random.random()
