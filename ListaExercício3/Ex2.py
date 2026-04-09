@@ -29,6 +29,7 @@ def calculoPrincipal():
     area = calculaAre(x1,y1,x2,y2,x3,y3)
 
     proporcao = area/(100*100)
+
     return calculaQualidade(proporcao)
 
 d = {}
