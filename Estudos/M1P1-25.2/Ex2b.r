@@ -6,7 +6,6 @@ calcula_paralelo <- function(...){
 calcula_total <- function(){
     par_esq <- calcula_paralelo(0.88,0.89)
     par_dir <- calcula_paralelo(0.91,0.89,0.88)
-
     serial <-0.97
 
     return(par_esq*par_dir*serial)
